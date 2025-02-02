@@ -1,6 +1,6 @@
 
 :root{
-
+ --Salte-gray : #808080; 
 }
 
 
@@ -27,26 +27,30 @@
     flex: 0 0 30%;
     height: auto;
     display: flex;
-    background-image: url(imgs/dima-solomin-WNqkaSWnK8Y-unsplash.jpg);
+    background-image: url(imgs/dmytro-bayer--IEF-SOBoMk-unsplash.jpg);
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    margin: 0;
  }
 
  .logo-holder {
+   padding: 10px;
+   width: 100%;
    display: flex;
+   justify-content: center;
    align-items: center;
    gap: 20px;
+   background-color: rgba(71, 61, 61, 0.2);
  }
 
  .logo-holder img
  {
-  width: 100px;
+  width: 4em;
   height: auto;
 
  }
  .logo-holder p {
- font-size: 40px;
+ font-size: 4em;
  font-family: "norsebold";
  color: azure;
 
