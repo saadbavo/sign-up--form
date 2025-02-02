@@ -29,11 +29,11 @@
     display: flex;
     background-image: url(imgs/dmytro-bayer--IEF-SOBoMk-unsplash.jpg);
     align-items: center;
-    justify-content: center;
     margin: 0;
  }
 
  .logo-holder {
+   position: relative;
    padding: 10px;
    width: 100%;
    display: flex;
@@ -54,4 +54,13 @@
  font-family: "norsebold";
  color: azure;
 
+ }
+ .note{
+   position: absolute;
+   color: azure;
+   font-family: 'norsebold';
+   bottom: 0;
+   left: 0;
+   padding: 10px;
+   
  }
