@@ -1,4 +1,9 @@
 
+:root{
+
+}
+
+
     @font-face {
         font-family: 'norsebold';
         src: url('fnt1/norse-bold-webfont.woff2') format('woff2'),
@@ -7,3 +12,42 @@
         font-style: normal;
     
     }
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }   
+ body{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+ }
+ #header-r{
+    flex: 0 0 30%;
+    height: auto;
+    display: flex;
+    background-image: url(imgs/dima-solomin-WNqkaSWnK8Y-unsplash.jpg);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+ }
+
+ .logo-holder {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+ }
+
+ .logo-holder img
+ {
+  width: 100px;
+  height: auto;
+
+ }
+ .logo-holder p {
+ font-size: 40px;
+ font-family: "norsebold";
+ color: azure;
+
+ }
