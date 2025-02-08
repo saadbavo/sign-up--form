@@ -64,3 +64,18 @@
    padding: 10px;
    
  }
+ /* form part */
+ .attion{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: large;
+   gap: 20px;
+   margin-top: 50px;
+   margin-left: 30px;
+   padding: 20px;
+   font-weight: bold;
+
+ }
+ .rca {
+   margin-top: 20px;
+   margin-bottom: 30px;
+ }
