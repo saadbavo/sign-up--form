@@ -73,9 +73,47 @@
    margin-left: 30px;
    padding: 20px;
    font-weight: bold;
+   font-size: 28px;
 
  }
  .rca {
    margin-top: 20px;
    margin-bottom: 30px;
  }
+ form 
+ fieldset {
+   border: none;
+   padding-left: 80px;
+   padding-bottom: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   gap: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+ }
+
+fieldset 
+legend {
+font-size: 28px;
+margin-bottom: 10px;
+}
+fieldset input {
+   border: 1px solid rgba(71, 61, 61, 0.2);
+   border-radius: 3px;
+   width: 60%;
+   
+}
+fieldset 
+label{
+   display: block;
+   font-size: small;
+   text-align: left;
+   margin-bottom: 5px;
+}
+.box{
+   display: flex;
+   flex-direction: column;
+   width: 48%;
+   min-width: 250px;
+}
