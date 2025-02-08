@@ -28,32 +28,32 @@
        <div class="box">
            
                 <label for="first-nam">FIRST NAME</label>
-                <input type="text" id="first-nam" name="first-nam" minlength="3" maxlength="20">
+                <input type="text" id="first-nam" name="first-nam" minlength="3" maxlength="20" required>
            
        </div>
         
             <div class="box">
                 <label for="last-nam">LAST NAME</label>
-                <input type="text" id="last-nam" name="last-nam" minlength="3" maxlength="20">
+                <input type="text" id="last-nam" name="last-nam" minlength="3" maxlength="20" required>
             </div>          
-      
+        
             <div class="box">
                 <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email" >
+                <input type="email" name="email" id="email" required >
             </div>
 
             <div class="box">
                 <label for="phon-num">PHONE NUMBER</label>
-                <input type="tel" name="phon-num" id="phon-num">
+                <input type="tel" name="phon-num" id="phon-num" required>
             </div>
 
             <div class="box">
                 <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
             </div>
             <div class="box">
                 <label for="conf-password">CONFIRM PASSWORD</label>
-                <input type="password" name="password" id="conf-password">
+                <input type="password" name="password" id="conf-password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" minlength="8" maxlength="20">
             </div>
 
 </fieldset> 
