@@ -117,3 +117,14 @@ label{
    width: 48%;
    min-width: 250px;
 }
+fieldset input[type="password"]:invalid{
+border: 2px  #ff1a1a solid  ;
+outline: none;
+
+}
+
+fieldset input:focus{
+ border: 2px #4db8ff solid;
+ outline: none;
+ box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
