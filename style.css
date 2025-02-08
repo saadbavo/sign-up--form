@@ -128,3 +128,18 @@ fieldset input:focus{
  outline: none;
  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
+
+.btn-sumbit {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin: 90px auto auto 50px;
+   gap: 10px;
+}
+.btn-sumbit button{
+   background-color: #808080;
+   color: azure;
+   padding: 20px 50px 20px 50px;
+   border-radius: 10px;
+   border: none;
+   box-shadow: 10px #1f1515;
+   margin-bottom: 40px;
+}
